@@ -1,0 +1,547 @@
+@font-face {
+  font-family: "AkrobatBlack";
+  src: url("../../fonts/AkrobatBlack.otf");
+}
+
+@font-face {
+  font-family: "AkrobatBold";
+  src: url("../../fonts/AkrobatBold.otf");
+}
+
+@font-face {
+  font-family: "AkrobatExtraBold";
+  src: url("../../fonts/AkrobatExtraBold.otf");
+}
+
+@font-face {
+  font-family: "AkrobatExtraLight";
+  src: url("../../fonts/AkrobatExtraLight.otf");
+}
+
+@font-face {
+  font-family: "AkrobatLight";
+  src: url("../../fonts/AkrobatLight.otf");
+}
+
+@font-face {
+  font-family: "AkrobatRegular";
+  src: url("../../fonts/AkrobatRegular.otf");
+}
+
+@font-face {
+  font-family: "AkrobatSemiBold";
+  src: url("../../fonts/AkrobatSemiBold.otf");
+}
+
+@font-face {
+  font-family: "AkrobatThin";
+  src: url("../../fonts/AkrobatThin.otf");
+}
+
+body {
+  color: white;
+  background-size: cover;
+  font-family: AkrobatRegular;
+}
+
+.grecaptcha-badge {
+  display: none;
+}
+
+.select {
+  border: 2px solid black;
+}
+
+.job {
+  position: relative;
+}
+
+.price {
+  position: absolute;
+  bottom: 100px;
+  left: 77px;
+  font-size: 24px;
+  color: #2A64AD;
+}
+
+.fluid-default {
+  background: url("../../images/back.jpg") no-repeat fixed;
+  background-size: cover;
+}
+
+.fluid-dark 
+{
+  background: url("../../images/back2.jpg") no-repeat;
+  background-size: cover;
+}
+
+.content_row_one 
+{
+  padding-top: 0.5em;
+}
+
+.content_row_one div {
+  padding: 0;
+  margin-left: 0.3em;
+  margin-right: 0.3em;
+}
+
+.content_row_one img 
+{
+  max-height: 80%;
+  float: left;
+}
+
+.content_row_one p {
+  white-space: nowrap;
+  font-size: 1.1em;
+  font-weight: bolder;
+  color: white;
+  margin: 0%;
+  padding-top: 0.75%;
+  padding-bottom: 0.75%;
+}
+
+.content_row_one .mail p,
+.content_row_one .order p,
+.content_row_one .phone p
+{
+  padding-top: 0.85em;
+  text-decoration: underline;
+}
+
+.content_row_one .phone p 
+{
+  padding: 0.3em 0.3em 0.3em 0.3em;
+  font-size: 1.4em;
+}
+
+.content_row_one .mail a,
+.content_row_one .order a
+{
+  color: white;
+}
+
+.content_row_one .order:hover 
+{
+  cursor: pointer;
+}
+
+.content_row_one .order:hover p
+{
+  font-weight: bolder;
+  /*color: blue;*/
+}
+
+.content_row_one .mail a:hover,
+.content_row_one .order a:hover
+{
+  font-weight: bolder;
+  /*color: blue;*/
+}
+
+.content_row_two 
+{
+  font-family: AkrobatExt:hoverraBold;
+  color: white;
+}
+
+.content_row_two h1 
+{
+  text-align: center;
+  font-size: 2.7em;
+  font-weight: bolder;
+  padding-bottom: 0.3em;
+}
+
+.content_row_two h4 
+{
+  font-family: AkrobatBold;
+}
+
+.content_row_two h4 span {
+  border-bottom: 4px solid #FE6700;
+}
+
+.content_row_three {
+  padding: 1% 0% 1% 0%;
+}
+
+.content_row_three ul {
+  list-style-type: none;
+  color: white;
+  padding-left: 0;
+}
+
+.content_row_three li {
+  background: url("../../images/ai.png") no-repeat left;
+  background-size: 25px;
+  padding-left: 10%;
+}
+
+.content_row_three li p {
+  font-size: 150%;
+}
+
+.content_row_three img#one {
+  height: 30%;
+  position: absolute;
+  bottom: 330px;
+  left: 450px;
+}
+
+.content_row_three img#two {
+  height: 25%;
+  height: 85%;
+}
+
+.content_row_four span {
+  font-family: AkrobatExtraBold;
+  font-weight: bolder;
+  float: left;
+  font-size: 450%;
+}
+
+.content_row_four p {
+  text-align: left;
+  font-size: 120%;
+  margin-top: 2.0em;
+  line-height: 97%;
+}
+
+.content_row_five {
+  padding-top: 2%;
+  color: #FE6700;
+  text-align: center;
+}
+
+.content_row_five p {
+  margin: 0;
+}
+
+.content_row_five p img {
+  width: 3.5em;
+  padding-bottom: 2%;
+}
+
+.content_row_five span {
+  margin-top: 4%;
+  margin-left: 1%;
+  font-family: AkrobatExtraBold;
+  font-size: 280%;
+}
+
+.content_row_six {
+  color: black;
+  font-size: 140%;
+  text-align: center;
+  padding-top: 5%;
+}
+
+.content_row_seven {
+  font-family: AkrobatExtraBold;
+  text-align: center;
+}
+
+.content_row_seven h3 {
+  height: 83px;
+  padding: 2%;
+  background: #0050A7;
+  margin: 0;
+  color: white;
+}
+
+.content_row_seven h3.one {
+  padding: 0.8em;
+}
+
+.content_row_seven img {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+.content_row_seven p {
+  color: white;
+  padding: 3%;
+  background: #FE6700;
+  font-size: 130%;
+  cursor: pointer;
+}
+
+.content_row_seven p:hover {
+  text-decoration: underline;
+  background: #ff5200;
+}
+
+.content_row_eight p {
+  text-align: center;
+  font-size: 120%;
+}
+
+.content_row_eight p a {
+  color: white;
+}
+
+.content_row_eight img {
+  border: 2px solid #105992;
+  width: 90%;
+}
+
+.content_row_eight img.horizontal {
+  margin-top: 60%;
+}
+
+.content_row_nine p {
+  margin: 0;
+  font-size: 140%;
+}
+
+.content_row_nine p, .content_row_nine h3 {
+  margin-left: 9%;
+}
+
+.content_row_nine h5, .content_row_nine h3 {
+  font-family: AkrobatBold;
+}
+
+.content_row_nine h6 {
+  font-size: 90%;
+}
+
+.content_row_nine img {
+  float: left;
+  width: 25%;
+  margin-right: 3%;
+}
+
+.content_row_nine span#orange {
+  color: #FE6700;
+}
+
+.content_row_nine span#orangeline {
+  border-bottom: 4px solid #FE6700;
+}
+
+.content_row_nine .item {
+  margin-bottom: 0.7%;
+}
+
+.content_row_ten {
+  margin-bottom: 5%;
+  font-family: AkrobatExtraBold;
+  color: black;
+  text-align: center;
+}
+
+.content_row_ten p {
+  margin: 0;
+}
+
+.content_row_eleven h3 {
+  margin: 5% 0% 5% 5%;
+}
+
+.content_row_eleven img {
+  margin: 7.5% 0% 0% 0%;
+}
+
+button {
+  background-color: #FE6700;
+  border: none;
+  cursor: pointer;
+  padding: 1% 8% 1% 8%;
+  color: white;
+  font-size: 160%;
+  margin: 8% 1% 1% 3%;
+  border-radius: 30px;
+}
+
+button span {
+  font-family: AkrobatBold;
+}
+
+button:hover {
+  text-decoration: underline;
+  background: #ff5200;
+}
+
+form input, form textarea {
+  border-right: 0;
+  font-family: AkrobatExtraBold;
+  width: 80%;
+  padding: 0% 0% 3% 1%;
+  margin: 0% 0% 1% 2%;
+  border: 2px solid #3E8BC1;
+}
+
+form input.valid, form textarea.valid {
+  border: 2px solid #00e97e;
+}
+
+form input.error, form textarea.error {
+  border: 2px solid red;
+}
+
+form button {
+  margin: 1% 0% 5% 20%;
+}
+
+form label.error {
+  color: red;
+  margin: 0em 0em 0em -8em;
+}
+
+.bluefieldTwo {
+  padding-top: 3%;
+  padding-bottom: 3%;
+  text-align: center;
+  background: url("../../images/fon.jpg") no-repeat center center fixed;
+  background-size: cover;
+}
+
+.bluefieldTwo img.logo {
+  width: 6%;
+  padding: 0% 0% 1% 0%;
+}
+
+.bluefieldTwo span {
+  color: white;
+  font-family: "AkrobatExtraBold";
+  padding: 1%;
+  font-size: 240%;
+}
+
+.bluefieldTwo .certificate {
+  margin: 0;
+  padding: 0;
+}
+
+.bluefieldTwo .certificate img {
+  margin: 0;
+  padding: 0;
+  width: 90%;
+}
+
+.bluefieldTwo .certificate img.horizontal {
+  padding-top: 60%;
+}
+
+.bluefieldTwo .left {
+  color: white;
+  padding: 0;
+  text-align: left;
+}
+
+.bluefieldTwo .right {
+  color: white;
+  padding: 0;
+}
+
+.bluefieldTwo .right span {
+  font-size: 100%;
+}
+
+.bluefieldTwo .right span#orange {
+  color: #FE6700;
+}
+
+.bluefieldTwo .right span#orangeline {
+  border-bottom: 4px solid #FE6700;
+}
+
+.open {
+  background: coral;
+  padding: 1em 2em;
+  color: #fff;
+  border: 0;
+}
+
+.open:hover {
+  background: #333;
+}
+
+.popup {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.popup .popup-content {
+  background-color: #f4f4f4;
+  margin: 20% auto;
+  padding: 20px;
+  width: 30em;
+  box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 7px 20px 0 black;
+  animation-name: popupopen;
+  animation-duration: 2s;
+}
+
+.popup .popup-content .close {
+  float: right;
+  font-size: 30px;
+}
+
+.popup .popup-content .close:hover, .popup .popup-content .close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.popup .popup-content h1 {
+  color: #FE6700;
+}
+
+.popup .popup-content h3 {
+  color: black;
+}
+
+@keyframes popupopen {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+#popupOne .popup-content,
+#popupTwo .popup-content {
+  max-width: 80%;
+  margin: 10% auto 10% auto;
+}
+
+#popupTwo {
+  text-align: center;
+}
+
+#popupTwo button {
+  margin: 0;
+}
+
+#popupTwo form input,
+#popupTwo form textarea {
+  margin: 0em 0em 1em 0em;
+  width: 95%;
+}
+
+#popupTwo form label.error {
+  position: absolute;
+}
+
+@media all and (min-width: 1000px) {
+  #fixedheader {
+    position: fixed;
+    z-index: 2;
+  }
+  
+  #underheader {
+    padding-top: 5em;
+  }
+}

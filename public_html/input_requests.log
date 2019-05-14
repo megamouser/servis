@@ -1,0 +1,261 @@
+NULL
+
+NULL
+
+NULL
+
+NULL
+
+NULL
+
+NULL
+
+NULL
+
+NULL
+
+NULL
+
+array(2) {
+  ["messages"]=>
+  array(1) {
+    [0]=>
+    array(11) {
+      ["id"]=>
+      string(46) "true_79992026355@c.us_3A095E0BD666604C4780_out"
+      ["body"]=>
+      string(4) "Test"
+      ["fromMe"]=>
+      bool(true)
+      ["self"]=>
+      int(0)
+      ["author"]=>
+      string(16) "79992026355@c.us"
+      ["time"]=>
+      int(1552916905)
+      ["chatId"]=>
+      string(16) "79992026355@c.us"
+      ["messageNumber"]=>
+      int(85)
+      ["type"]=>
+      string(4) "chat"
+      ["senderName"]=>
+      string(0) ""
+      ["caption"]=>
+      NULL
+    }
+  }
+  ["instanceId"]=>
+  string(5) "31164"
+}
+
+NULL
+
+testarray(2) {
+  ["messages"]=>
+  array(1) {
+    [0]=>
+    array(11) {
+      ["id"]=>
+      string(46) "true_79992026355@c.us_3AE42A16EB36BAF71059_out"
+      ["body"]=>
+      string(20) "Last test, last test"
+      ["fromMe"]=>
+      bool(true)
+      ["self"]=>
+      int(0)
+      ["author"]=>
+      string(16) "79992026355@c.us"
+      ["time"]=>
+      int(1552917245)
+      ["chatId"]=>
+      string(16) "79992026355@c.us"
+      ["messageNumber"]=>
+      int(86)
+      ["type"]=>
+      string(4) "chat"
+      ["senderName"]=>
+      string(0) ""
+      ["caption"]=>
+      NULL
+    }
+  }
+  ["instanceId"]=>
+  string(5) "31164"
+}
+
+array(2) {
+  ["messages"]=>
+  array(1) {
+    [0]=>
+    array(11) {
+      ["id"]=>
+      string(55) "false_79055670252@c.us_E017FB9C1D3C416727AF96C3B0D2A0C7"
+      ["body"]=>
+      string(16) "Отправил"
+      ["fromMe"]=>
+      bool(false)
+      ["self"]=>
+      int(0)
+      ["author"]=>
+      string(16) "79055670252@c.us"
+      ["time"]=>
+      int(1552918107)
+      ["chatId"]=>
+      string(16) "79055670252@c.us"
+      ["messageNumber"]=>
+      int(87)
+      ["type"]=>
+      string(4) "chat"
+      ["senderName"]=>
+      string(11) "Ace Of Aces"
+      ["caption"]=>
+      NULL
+    }
+  }
+  ["instanceId"]=>
+  string(5) "31164"
+}
+
+array(1) {
+  [0]=>
+  array(11) {
+    ["id"]=>
+    string(46) "true_79992026355@c.us_3AF6F3976B7E24F78A35_out"
+    ["body"]=>
+    string(8) "Messages"
+    ["fromMe"]=>
+    bool(true)
+    ["self"]=>
+    int(0)
+    ["author"]=>
+    string(16) "79992026355@c.us"
+    ["time"]=>
+    int(1552918290)
+    ["chatId"]=>
+    string(16) "79992026355@c.us"
+    ["messageNumber"]=>
+    int(88)
+    ["type"]=>
+    string(4) "chat"
+    ["senderName"]=>
+    string(0) ""
+    ["caption"]=>
+    NULL
+  }
+}
+
+string(7) "Message"
+
+string(7) "success"
+
+string(1) "0"
+
+string(7) "success"
+
+079992026355@c.us
+string(7) "success"
+
+string(1) "0"
+string(16) "79992026355@c.us"
+
+string(7) "success"
+
+string(1) "0"
+string(16) "79992026355@c.us"
+
+string(7) "success"
+
+string(1) "0"
+string(16) "79992026355@c.us"
+
+string(7) "success"
+string(16) "79992026355@c.us"
+string(1) "0"
+string(8) "jsonData"
+string(40) "{"chatId":"79992026355@c.us","body":"1"}"
+
+string(7) "success"
+string(16) "79992026355@c.us"
+string(1) "0"
+string(8) "jsonData"
+string(40) "{"chatId":"79992026355@c.us","body":"1"}"
+
+string(7) "success"
+string(16) "79992026355@c.us"
+string(1) "0"
+string(8) "jsonData"
+string(40) "{"chatId":"79992026355@c.us","body":"1"}"
+
+string(7) "success"
+string(16) "79992026355@c.us"
+string(1) "0"
+string(8) "jsonData"
+string(40) "{"chatId":"79992026355@c.us","body":"1"}"
+
+string(7) "success"
+string(16) "79992026355@c.us"
+string(1) "0"
+string(8) "jsonData"
+string(40) "{"chatId":"79992026355@c.us","body":"1"}"
+
+string(7) "success"
+string(16) "79032024838@c.us"
+string(1) "0"
+string(8) "jsonData"
+string(40) "{"chatId":"79032024838@c.us","body":"1"}"
+
+string(7) "success"
+string(16) "79992026355@c.us"
+string(1) "0"
+string(8) "jsonData"
+string(40) "{"chatId":"79992026355@c.us","body":"1"}"
+
+string(7) "success"
+string(16) "79992026355@c.us"
+string(1) "0"
+string(8) "jsonData"
+string(40) "{"chatId":"79992026355@c.us","body":"1"}"
+
+string(7) "success"
+string(16) "79992026355@c.us"
+string(1) "0"
+string(8) "jsonData"
+string(40) "{"chatId":"79992026355@c.us","body":"1"}"
+
+string(7) "success"
+string(16) "79992026355@c.us"
+string(1) "0"
+string(8) "jsonData"
+string(40) "{"chatId":"79992026355@c.us","body":"1"}"
+
+string(7) "success"
+string(16) "79992026355@c.us"
+string(1) "0"
+string(8) "jsonData"
+string(40) "{"chatId":"79992026355@c.us","body":"1"}"
+
+string(7) "success"
+string(16) "79992026355@c.us"
+string(1) "0"
+string(8) "jsonData"
+string(40) "{"chatId":"79992026355@c.us","body":"1"}"
+
+string(7) "success"
+string(16) "79992026355@c.us"
+string(1) "0"
+string(8) "jsonData"
+string(40) "{"chatId":"79992026355@c.us","body":"1"}"
+
+string(7) "success"
+string(16) "79992026355@c.us"
+string(1) "0"
+string(8) "jsonData"
+string(40) "{"chatId":"79992026355@c.us","body":"1"}"
+
+string(7) "success"
+string(16) "79055670252@c.us"
+string(1) "0"
+string(8) "jsonData"
+string(40) "{"chatId":"79055670252@c.us","body":"1"}"
+

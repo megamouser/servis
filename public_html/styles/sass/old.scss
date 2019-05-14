@@ -1,0 +1,550 @@
+@font-face {
+  font-family: "AkrobatBlack";
+  src: url("../../fonts/AkrobatBlack.otf");
+}
+
+@font-face {
+  font-family: "AkrobatBold";
+  src: url("../../fonts/AkrobatBold.otf");
+}
+
+@font-face {
+  font-family: "AkrobatExtraBold";
+  src: url("../../fonts/AkrobatExtraBold.otf");
+}
+
+@font-face {
+  font-family: "AkrobatExtraLight";
+  src: url("../../fonts/AkrobatExtraLight.otf");
+}
+
+@font-face {
+  font-family: "AkrobatLight";
+  src: url("../../fonts/AkrobatLight.otf");
+}
+
+
+@font-face {
+  font-family: "AkrobatRegular";
+  src: url("../../fonts/AkrobatRegular.otf");
+}
+
+@font-face {
+  font-family: "AkrobatSemiBold";
+  src: url("../../fonts/AkrobatSemiBold.otf");
+}
+
+@font-face {
+  font-family: "AkrobatThin";
+  src: url("../../fonts/AkrobatThin.otf");
+}
+
+$orange: #FE6700;
+
+body {
+  background: url("../../images/back.jpg") no-repeat center center fixed;
+  background-size: cover;
+  display: flex;
+  flex-flow: column;
+}
+
+.select {
+  background: #ccc;
+  border: 1px solid #7e7e7e;
+}
+
+
+.row {
+  // padding-left: 10%;
+  // padding-right: 10%;
+  display: flex;
+  flex-flow: row;
+  margin: 5px;
+}
+
+.col {
+  flex: 1;
+}
+
+.header {
+  border: 2px solid red;
+  p {
+    border: 2px solid red;
+    color: white;
+    font-family: AkrobatRegular;
+    font-size: 100%
+  }
+  .logo {
+    margin: 10px 0px 0px 0px;
+    height: 60px;
+    width: 60px;
+    flex: 1;
+    img {
+      height: 80%;
+    }
+  }
+  .text {
+    flex: 7;
+    margin: -5px 0px 0px 0px;
+  }
+  .text2 {
+    flex: 4;
+    margin: -5px 0px 0px 0px;
+  }
+}
+
+.contentOne {
+  border: 2px solid red;
+  h1, h2 {
+    font-weight: 600;
+    font-family: AkrobatExtraBold;
+    color: white;
+  }
+  h1 {
+    font-size: 40px;
+    margin-top: 0px;
+  }
+  h2 {
+    font-family: AkrobatLight;
+  }
+  span {
+    border-bottom: 4px solid $orange;
+  }
+}
+
+.contentTwo {
+  border: 2px solid red;
+  ul {
+    padding: 0px;
+    list-style-type: none;
+    margin: 0px;
+    color: white;
+    font-family: AkrobatRegular;
+    font-size: 18px;
+  }
+  li {
+    background: url("../../images/ai.png") no-repeat left top;
+    background-size: 25px;
+    height: 40px;
+    padding-left: 35px;
+  }
+  p {
+    font-size: 25px;
+    margin: 0px;
+    font-weight: 400;
+  }
+  #one {
+    position: absolute;
+    margin: -90px 0px 0px 370px;
+    height: 150px;
+  }
+  #two {
+    height: 350px;
+  }
+  button {
+    background-color: $orange;
+    border: none;
+    cursor: pointer;
+    padding: 8px 40px 10px 40px;
+    color: white;
+    font-family: AkrobatRegular;
+    font-size: 20px;
+    margin: 30px 0px 0px 30px;
+    border-radius: 30px;
+  }
+  span {
+    font-weight: bolder;
+    font-size: 23px;
+  }
+}
+
+  .contentThree {
+    border: 2px solid red;
+    .row {
+      margin: 0px;
+      background: url("../../images/back2.jpg");
+      background-size: cover;
+    }
+
+    .col {
+      color: white;
+      // text-shadow: #2A48AA 0.5px 0.5px 0, #2A48AA -0.5px -0.5px 0,
+      //        #2A48AA -0.5px 0.5px 0, #2A48AA 0.5px -0.5px 0;
+    }
+
+    .number {
+      font-family: AkrobatExtraBold;
+      text-align: center;
+      flex: 1;
+      font-size: 33px;
+      font-weight: bolder;
+        h1 {
+          padding: 0px;
+          margin: 0px;
+        }
+      }
+
+      .text {
+        font-family: AkrobatRegular;
+        flex: 10;
+        padding: 10px 10px 10px 10px;
+      }
+    }
+
+    .contentFour {
+      border: 2px solid red;
+      padding-top: 40px;
+      text-align: center;
+      background-color: white;
+      font-family: AkrobatExtraBold;
+      .image {
+        text-align: right;
+        flex: 1;
+      }
+      .text {
+        color: $orange;
+        margin-left: 10px;
+        text-align: left;
+        flex: 2;
+      }
+      .elements {
+        margin-top: 50px;
+        p {
+          font-family: AkrobatRegular;
+          font-size: 20px;
+          margin-top: 5px;
+        }
+      }
+      .elements2 {
+        .col {
+          padding: 5px;
+        }
+      }
+
+      .elements3 {
+        flex: 2;
+        height: 400px;
+        width: 300px;
+      }
+    }
+
+    .contentFive {
+      border: 2px solid red;
+      padding-top: 20px;
+      padding-bottom: 20px;
+      font-family: AkrobatExtraBold;
+      color: white;
+      .image {
+        img {
+          padding-top: 10px;
+        }
+        height: 15px;
+        text-align: right;
+        flex: 1;
+      }
+      .text {
+        margin-left: 20px;
+        text-align: left;
+        flex: 2;
+        h1 {
+          font-size: 40px;
+        }
+      }
+    }
+
+    .contentSix {
+      border: 2px solid red;
+      padding-right: 90px;
+      padding-left: 90px;
+      font-family: AkrobatRegular;
+      font-size: 25px;
+      color: white;
+      text-align: center;
+      .col {
+        padding-right: 0px;
+      }
+      p {
+        text-decoration: underline;
+        margin: 0px 0px 0px 0px;
+      }
+      .vertical {
+        padding-top: 68px;
+      }
+    }
+
+    .contentSeven {
+      border: 2px solid red;
+      text-align: center;
+      background: white;
+      padding-top: 20px;
+      padding-bottom: 20px;
+      font-family: AkrobatExtraBold;
+      color: $orange;
+      .row {
+        text-align: center;
+      }
+      .image {
+        flex: 1;
+        height: 15px;
+        text-align: right;
+        flex: 1;
+        img {
+          padding-top: 10px;
+        }
+      }
+      .text {
+        flex: 1;
+        margin-left: 20px;
+        text-align: left;
+        flex: 2;
+        h1 {
+          font-size: 40px;
+        }
+      }
+      .image2 {
+        text-align: center;
+        img {
+          height: 300px;
+        }
+      }
+    }
+
+    .contentEight {
+      border: 1px solid red;
+      padding-top: 20px;
+      padding-bottom: 20px;
+      font-family: AkrobatExtraBold;
+      color: white;
+      .image {
+        img {
+          padding-top: 10px;
+        }
+        height: 15px;
+        text-align: right;
+        flex: 1;
+      }
+      .text {
+        margin-left: 20px;
+        text-align: left;
+        flex: 3;
+        h1 {
+          font-size: 40px;
+        }
+      }
+    }
+
+    .contentNine {
+      border: 2px solid red;
+      font-family: AkrobatRegular;
+      color: white;
+      .left {
+        padding: 5px;
+        margin: 20px;
+        display: flex;
+        flex-direction: column;
+        .text {
+          margin-left: 20px;
+        }
+        h4 {
+          margin: 4px;
+        }
+        .col {
+          display: flex;
+          flex-direction: row;
+        }
+      }
+      .right {
+        h2 {
+          font-family: AkrobatExtraLight;
+        }
+        span.orange {
+          color: $orange;
+        }
+        span.orange-line {
+          border-bottom: 4px solid $orange;
+        }
+        form {
+          text-align: left;
+          input {
+            font-family: AkrobatExtraBold;
+            padding: 0px 40% 20px 10px;
+            margin: 5px;
+            border: 1px solid #3E8BC1;
+          }
+          input#message {
+            padding: 0px 40% 70px 10px;
+          }
+          button {
+            background-color: $orange;
+            border: none;
+            cursor: pointer;
+            padding: 8px 40px 10px 40px;
+            color: white;
+            font-family: AkrobatRegular;
+            font-size: 20px;
+            margin: 10px 0px 0px 30px;
+            border-radius: 30px;
+          }
+        }
+      }
+    }
+
+  .contentTen {
+    border: 2px solid red;
+    text-align: center;
+    background: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-family: AkrobatExtraBold;
+    color: black;
+    p {
+      margin: 0px;
+    }
+    h2 {
+      margin-bottom: 0px;
+    }
+    .row {
+      text-align: center;
+    }
+    .image {
+      flex: 1;
+      height: 15px;
+      text-align: right;
+      flex: 1;
+      img {
+        padding-top: 10px;
+      }
+    }
+
+    .text {
+      flex: 1;
+      margin-left: 20px;
+      text-align: left;
+      flex: 2;
+      h1 {
+        color: $orange;
+        font-size: 40px;
+      }
+    }
+    .image2 {
+      text-align: center;
+      img {
+        height: 300px;
+      }
+    }
+  }
+
+  .contentEleven {
+    border: 2px solid red;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-family: AkrobatExtraBold;
+    color: white;
+    .image {
+      img {
+        padding-top: 10px;
+      }
+      height: 15px;
+      text-align: right;
+      flex: 1;
+    }
+    .text {
+      margin-left: 20px;
+      text-align: left;
+      flex: 2;
+      h1 {
+        font-size: 40px;
+      }
+    }
+  }
+
+  .contentTwelve {
+    border: 2px solid red;
+    margin: 0;
+    font-family: AkrobatRegular;
+    color: white;
+    .left {
+      padding: 5px;
+      margin: 20px;
+      display: flex;
+      flex-direction: column;
+      .text {
+        margin-left: 20px;
+      }
+      h4 {
+        margin: 4px;
+      }
+      .col {
+        display: flex;
+        flex-direction: row;
+      }
+      img {
+        height: 400px;
+        width: 300px;
+        padding: 0;
+        margin: 0;
+      }
+    }
+    .right {
+      h2 {
+        font-family: AkrobatExtraBold;
+      }
+      span.orange {
+        color: $orange;
+      }
+      span.orange-line {
+        border-bottom: 4px solid $orange;
+      }
+      form {
+        text-align: left;
+        input {
+          font-family: AkrobatExtraBold;
+          padding: 0px 40% 20px 10px;
+          margin: 5px;
+          border: 1px solid #3E8BC1;
+        }
+        input#message {
+          padding: 0px 40% 70px 10px;
+        }
+        button {
+          background-color: $orange;
+          border: none;
+          cursor: pointer;
+          padding: 8px 40px 10px 40px;
+          color: white;
+          font-family: AkrobatRegular;
+          font-size: 20px;
+          margin: 10px 0px 0px 30px;
+          border-radius: 30px;
+        }
+      }
+    }
+  }
+
+  .contentThird {
+    border: 2px solid red;
+    margin: 0px;
+    background: url("../../images/back2.jpg");
+    p {
+      color: white;
+      font-family: AkrobatRegular;
+      font-size: 18px;
+    }
+    .logo {
+      margin: 10px 0px 0px 0px;
+      height: 60px;
+      width: 60px;
+      flex: 1;
+      img {
+        height: 80%;
+      }
+    }
+    .text {
+      flex: 7;
+      margin: -5px 0px 0px 0px;
+    }
+    .text2 {
+      flex: 4;
+      margin: -5px 0px 0px 0px;
+    }
+  }

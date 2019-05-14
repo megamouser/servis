@@ -1,0 +1,413 @@
+@font-face {
+  font-family: "AkrobatBlack";
+  src: url("../../fonts/AkrobatBlack.otf"); }
+@font-face {
+  font-family: "AkrobatBold";
+  src: url("../../fonts/AkrobatBold.otf"); }
+@font-face {
+  font-family: "AkrobatExtraBold";
+  src: url("../../fonts/AkrobatExtraBold.otf"); }
+@font-face {
+  font-family: "AkrobatExtraLight";
+  src: url("../../fonts/AkrobatExtraLight.otf"); }
+@font-face {
+  font-family: "AkrobatLight";
+  src: url("../../fonts/AkrobatLight.otf"); }
+@font-face {
+  font-family: "AkrobatRegular";
+  src: url("../../fonts/AkrobatRegular.otf"); }
+@font-face {
+  font-family: "AkrobatSemiBold";
+  src: url("../../fonts/AkrobatSemiBold.otf"); }
+@font-face {
+  font-family: "AkrobatThin";
+  src: url("../../fonts/AkrobatThin.otf"); }
+body {
+  background: url("../../images/back.jpg") no-repeat center center fixed;
+  background-size: cover;
+  display: flex;
+  flex-flow: column; }
+
+.select {
+  background: #ccc;
+  border: 1px solid #7e7e7e; }
+
+.row {
+  display: flex;
+  flex-flow: row;
+  margin: 5px; }
+
+.col {
+  flex: 1; }
+
+.header {
+  border: 2px solid red; }
+  .header p {
+    border: 2px solid red;
+    color: white;
+    font-family: AkrobatRegular;
+    font-size: 100%; }
+  .header .logo {
+    margin: 10px 0px 0px 0px;
+    height: 60px;
+    width: 60px;
+    flex: 1; }
+    .header .logo img {
+      height: 80%; }
+  .header .text {
+    flex: 7;
+    margin: -5px 0px 0px 0px; }
+  .header .text2 {
+    flex: 4;
+    margin: -5px 0px 0px 0px; }
+
+.contentOne {
+  border: 2px solid red; }
+  .contentOne h1, .contentOne h2 {
+    font-weight: 600;
+    font-family: AkrobatExtraBold;
+    color: white; }
+  .contentOne h1 {
+    font-size: 40px;
+    margin-top: 0px; }
+  .contentOne h2 {
+    font-family: AkrobatLight; }
+  .contentOne span {
+    border-bottom: 4px solid #FE6700; }
+
+.contentTwo {
+  border: 2px solid red; }
+  .contentTwo ul {
+    padding: 0px;
+    list-style-type: none;
+    margin: 0px;
+    color: white;
+    font-family: AkrobatRegular;
+    font-size: 18px; }
+  .contentTwo li {
+    background: url("../../images/ai.png") no-repeat left top;
+    background-size: 25px;
+    height: 40px;
+    padding-left: 35px; }
+  .contentTwo p {
+    font-size: 25px;
+    margin: 0px;
+    font-weight: 400; }
+  .contentTwo #one {
+    position: absolute;
+    margin: -90px 0px 0px 370px;
+    height: 150px; }
+  .contentTwo #two {
+    height: 350px; }
+  .contentTwo button {
+    background-color: #FE6700;
+    border: none;
+    cursor: pointer;
+    padding: 8px 40px 10px 40px;
+    color: white;
+    font-family: AkrobatRegular;
+    font-size: 20px;
+    margin: 30px 0px 0px 30px;
+    border-radius: 30px; }
+  .contentTwo span {
+    font-weight: bolder;
+    font-size: 23px; }
+
+.contentThree {
+  border: 2px solid red; }
+  .contentThree .row {
+    margin: 0px;
+    background: url("../../images/back2.jpg");
+    background-size: cover; }
+  .contentThree .col {
+    color: white; }
+  .contentThree .number {
+    font-family: AkrobatExtraBold;
+    text-align: center;
+    flex: 1;
+    font-size: 33px;
+    font-weight: bolder; }
+    .contentThree .number h1 {
+      padding: 0px;
+      margin: 0px; }
+  .contentThree .text {
+    font-family: AkrobatRegular;
+    flex: 10;
+    padding: 10px 10px 10px 10px; }
+
+.contentFour {
+  border: 2px solid red;
+  padding-top: 40px;
+  text-align: center;
+  background-color: white;
+  font-family: AkrobatExtraBold; }
+  .contentFour .image {
+    text-align: right;
+    flex: 1; }
+  .contentFour .text {
+    color: #FE6700;
+    margin-left: 10px;
+    text-align: left;
+    flex: 2; }
+  .contentFour .elements {
+    margin-top: 50px; }
+    .contentFour .elements p {
+      font-family: AkrobatRegular;
+      font-size: 20px;
+      margin-top: 5px; }
+  .contentFour .elements2 .col {
+    padding: 5px; }
+  .contentFour .elements3 {
+    flex: 2;
+    height: 400px;
+    width: 300px; }
+
+.contentFive {
+  border: 2px solid red;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-family: AkrobatExtraBold;
+  color: white; }
+  .contentFive .image {
+    height: 15px;
+    text-align: right;
+    flex: 1; }
+    .contentFive .image img {
+      padding-top: 10px; }
+  .contentFive .text {
+    margin-left: 20px;
+    text-align: left;
+    flex: 2; }
+    .contentFive .text h1 {
+      font-size: 40px; }
+
+.contentSix {
+  border: 2px solid red;
+  padding-right: 90px;
+  padding-left: 90px;
+  font-family: AkrobatRegular;
+  font-size: 25px;
+  color: white;
+  text-align: center; }
+  .contentSix .col {
+    padding-right: 0px; }
+  .contentSix p {
+    text-decoration: underline;
+    margin: 0px 0px 0px 0px; }
+  .contentSix .vertical {
+    padding-top: 68px; }
+
+.contentSeven {
+  border: 2px solid red;
+  text-align: center;
+  background: white;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-family: AkrobatExtraBold;
+  color: #FE6700; }
+  .contentSeven .row {
+    text-align: center; }
+  .contentSeven .image {
+    flex: 1;
+    height: 15px;
+    text-align: right;
+    flex: 1; }
+    .contentSeven .image img {
+      padding-top: 10px; }
+  .contentSeven .text {
+    flex: 1;
+    margin-left: 20px;
+    text-align: left;
+    flex: 2; }
+    .contentSeven .text h1 {
+      font-size: 40px; }
+  .contentSeven .image2 {
+    text-align: center; }
+    .contentSeven .image2 img {
+      height: 300px; }
+
+.contentEight {
+  border: 1px solid red;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-family: AkrobatExtraBold;
+  color: white; }
+  .contentEight .image {
+    height: 15px;
+    text-align: right;
+    flex: 1; }
+    .contentEight .image img {
+      padding-top: 10px; }
+  .contentEight .text {
+    margin-left: 20px;
+    text-align: left;
+    flex: 3; }
+    .contentEight .text h1 {
+      font-size: 40px; }
+
+.contentNine {
+  border: 2px solid red;
+  font-family: AkrobatRegular;
+  color: white; }
+  .contentNine .left {
+    padding: 5px;
+    margin: 20px;
+    display: flex;
+    flex-direction: column; }
+    .contentNine .left .text {
+      margin-left: 20px; }
+    .contentNine .left h4 {
+      margin: 4px; }
+    .contentNine .left .col {
+      display: flex;
+      flex-direction: row; }
+  .contentNine .right h2 {
+    font-family: AkrobatExtraLight; }
+  .contentNine .right span.orange {
+    color: #FE6700; }
+  .contentNine .right span.orange-line {
+    border-bottom: 4px solid #FE6700; }
+  .contentNine .right form {
+    text-align: left; }
+    .contentNine .right form input {
+      font-family: AkrobatExtraBold;
+      padding: 0px 40% 20px 10px;
+      margin: 5px;
+      border: 1px solid #3E8BC1; }
+    .contentNine .right form input#message {
+      padding: 0px 40% 70px 10px; }
+    .contentNine .right form button {
+      background-color: #FE6700;
+      border: none;
+      cursor: pointer;
+      padding: 8px 40px 10px 40px;
+      color: white;
+      font-family: AkrobatRegular;
+      font-size: 20px;
+      margin: 10px 0px 0px 30px;
+      border-radius: 30px; }
+
+.contentTen {
+  border: 2px solid red;
+  text-align: center;
+  background: white;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-family: AkrobatExtraBold;
+  color: black; }
+  .contentTen p {
+    margin: 0px; }
+  .contentTen h2 {
+    margin-bottom: 0px; }
+  .contentTen .row {
+    text-align: center; }
+  .contentTen .image {
+    flex: 1;
+    height: 15px;
+    text-align: right;
+    flex: 1; }
+    .contentTen .image img {
+      padding-top: 10px; }
+  .contentTen .text {
+    flex: 1;
+    margin-left: 20px;
+    text-align: left;
+    flex: 2; }
+    .contentTen .text h1 {
+      color: #FE6700;
+      font-size: 40px; }
+  .contentTen .image2 {
+    text-align: center; }
+    .contentTen .image2 img {
+      height: 300px; }
+
+.contentEleven {
+  border: 2px solid red;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-family: AkrobatExtraBold;
+  color: white; }
+  .contentEleven .image {
+    height: 15px;
+    text-align: right;
+    flex: 1; }
+    .contentEleven .image img {
+      padding-top: 10px; }
+  .contentEleven .text {
+    margin-left: 20px;
+    text-align: left;
+    flex: 2; }
+    .contentEleven .text h1 {
+      font-size: 40px; }
+
+.contentTwelve {
+  border: 2px solid red;
+  margin: 0;
+  font-family: AkrobatRegular;
+  color: white; }
+  .contentTwelve .left {
+    padding: 5px;
+    margin: 20px;
+    display: flex;
+    flex-direction: column; }
+    .contentTwelve .left .text {
+      margin-left: 20px; }
+    .contentTwelve .left h4 {
+      margin: 4px; }
+    .contentTwelve .left .col {
+      display: flex;
+      flex-direction: row; }
+    .contentTwelve .left img {
+      height: 400px;
+      width: 300px;
+      padding: 0;
+      margin: 0; }
+  .contentTwelve .right h2 {
+    font-family: AkrobatExtraBold; }
+  .contentTwelve .right span.orange {
+    color: #FE6700; }
+  .contentTwelve .right span.orange-line {
+    border-bottom: 4px solid #FE6700; }
+  .contentTwelve .right form {
+    text-align: left; }
+    .contentTwelve .right form input {
+      font-family: AkrobatExtraBold;
+      padding: 0px 40% 20px 10px;
+      margin: 5px;
+      border: 1px solid #3E8BC1; }
+    .contentTwelve .right form input#message {
+      padding: 0px 40% 70px 10px; }
+    .contentTwelve .right form button {
+      background-color: #FE6700;
+      border: none;
+      cursor: pointer;
+      padding: 8px 40px 10px 40px;
+      color: white;
+      font-family: AkrobatRegular;
+      font-size: 20px;
+      margin: 10px 0px 0px 30px;
+      border-radius: 30px; }
+
+.contentThird {
+  border: 2px solid red;
+  margin: 0px;
+  background: url("../../images/back2.jpg"); }
+  .contentThird p {
+    color: white;
+    font-family: AkrobatRegular;
+    font-size: 18px; }
+  .contentThird .logo {
+    margin: 10px 0px 0px 0px;
+    height: 60px;
+    width: 60px;
+    flex: 1; }
+    .contentThird .logo img {
+      height: 80%; }
+  .contentThird .text {
+    flex: 7;
+    margin: -5px 0px 0px 0px; }
+  .contentThird .text2 {
+    flex: 4;
+    margin: -5px 0px 0px 0px; }
+
+/*# sourceMappingURL=old.css.map */

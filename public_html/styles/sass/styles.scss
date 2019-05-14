@@ -1,0 +1,407 @@
+@font-face {
+  font-family: "AkrobatBlack";
+  src: url("../../fonts/AkrobatBlack.otf");
+}
+@font-face {
+  font-family: "AkrobatBold";
+  src: url("../../fonts/AkrobatBold.otf");
+}
+@font-face {
+  font-family: "AkrobatExtraBold";
+  src: url("../../fonts/AkrobatExtraBold.otf");
+}
+@font-face {
+  font-family: "AkrobatExtraLight";
+  src: url("../../fonts/AkrobatExtraLight.otf");
+}
+@font-face {
+  font-family: "AkrobatLight";
+  src: url("../../fonts/AkrobatLight.otf");
+}
+@font-face {
+  font-family: "AkrobatRegular";
+  src: url("../../fonts/AkrobatRegular.otf");
+}
+@font-face {
+  font-family: "AkrobatSemiBold";
+  src: url("../../fonts/AkrobatSemiBold.otf");
+}
+@font-face {
+  font-family: "AkrobatThin";
+  src: url("../../fonts/AkrobatThin.otf");
+}
+
+$orange: #FE6700;
+
+body {
+  color: white;
+  background-size: cover;
+  font-family: AkrobatRegular;
+}
+
+.select {
+  border: 2px solid black;
+}
+
+// containers-fluid
+.fluid-default {
+  background: url("../../images/back.jpg") no-repeat fixed;
+  background-size: cover;
+}
+.fluid-dark {
+  background: url("../../images/back2.jpg") no-repeat;
+  background-size: cover;
+}
+//rows
+.content_row_one {
+  padding: 1% 1% 1% 1%;
+  img {
+    float: left;
+  }
+  p {
+    font-size: 110%;
+    color: white;
+    margin: 0%;
+    padding-top: 0.75%;
+    padding-bottom: 0.75%;
+  }
+  .mail {
+    p {
+      padding-top: 0.85em;
+      text-decoration: underline;
+    }
+    a {
+      color: white;
+    }
+    a:hover {
+      color: blue;
+    }
+  }
+}
+
+.content_row_two {
+  font-family: AkrobatExtraBold;
+  color: white;
+  h1 {
+    font-size: 340%;
+  }
+  h4 {
+    font-family: AkrobatBold;
+    span {
+      border-bottom: 4px solid $orange;
+    }
+  }
+}
+
+.content_row_three {
+  padding: 1% 0% 1% 0%;
+  ul {
+    list-style-type: none;
+    color: white;
+    padding-left: 0;
+  }
+  li {
+    background: url("../../images/ai.png") no-repeat left;
+    background-size: 25px;
+
+    padding-left: 10%;
+    p {
+      font-size: 150%;
+    }
+  }
+  img#one {
+    height: 30%;
+    position: absolute;
+    margin-left: 60%;
+    margin-top: -10%;
+  }
+  img#two {
+    height: 25%;
+    height: 85%;
+  }
+}
+
+.content_row_four {
+  span {
+    font-family: AkrobatExtraBold;
+    font-weight: bolder;
+    float: left;
+    font-size: 450%;
+  }
+  p {
+    text-align: left;
+    font-size: 120%;
+    margin-top: 2.0em;
+    line-height: 97%;
+  }
+}
+
+.content_row_five {
+  padding-top: 2%;
+  p {
+    img {
+      width: 3.5em;
+      padding-bottom: 2%;
+    }
+    margin: 0;
+  }
+  color: $orange;
+  text-align: center;
+  span {
+    margin-top: 4%;
+    margin-left: 1%;
+    font-family: AkrobatExtraBold;
+    font-size: 280%;
+  }
+}
+
+.content_row_six {
+  color: black;
+  font-size: 140%;
+  text-align: center;
+  padding-top: 5%;
+}
+
+.content_row_seven {
+  font-family: AkrobatExtraBold;
+  text-align: center;
+  h3 {
+    height: 83px;
+    padding: 2%;
+    background: #0050A7;
+    margin: 0;
+    color: white;
+  }
+  h3.one {
+    padding: 0.8em;
+  }
+  img {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+  }
+  p {
+    color: white;
+    padding: 3%;
+    background: $orange;
+    font-size: 130%;
+    cursor: pointer;
+  }
+  p:hover {
+    text-decoration: underline;
+    background: #ff5200;
+  }
+}
+
+.content_row_eight {
+  p {
+    text-align: center;
+    font-size: 120%;
+    a {
+      color: white;
+    }
+  }
+  img {
+    border: 2px solid #105992;
+    width: 90%;
+  }
+  img.horizontal {
+    margin-top: 60%;
+  }
+}
+
+.content_row_nine {
+  p {
+    margin: 0;
+    font-size: 140%;
+  }
+  p, h3 {
+    margin-left: 9%;
+  }
+  h5, h3 {
+    font-family: AkrobatBold;
+  }
+  h6 {
+    font-size: 90%;
+  }
+  img {
+    float: left;
+    width: 25%;
+    margin-right: 3%;
+  }
+  span#orange {
+    color: $orange;
+  }
+  span#orangeline {
+    border-bottom: 4px solid $orange;
+  }
+  .item {
+    margin-bottom: 0.7%;
+  }
+}
+
+.content_row_ten {
+  margin-bottom: 5%;
+  font-family: AkrobatExtraBold;
+  color: black;
+  text-align: center;
+  p {
+    margin: 0;
+  }
+}
+
+.content_row_eleven {
+  h3 {
+    margin: 5% 0% 5% 5%;
+  }
+  img {
+    margin: 7.5% 0% 0% 0%;
+  }
+}
+//buttons
+button {
+  background-color: $orange;
+  border: none;
+  cursor: pointer;
+  padding: 1% 8% 1% 8%;
+  color: white;
+  span {
+    font-family: AkrobatBold;
+  }
+  font-size: 160%;
+  margin: 8% 1% 1% 3%;
+  border-radius: 30px;
+}
+button:hover {
+  text-decoration: underline;
+  background: #ff5200;
+}
+
+form {
+  input, textarea {
+    border-right: 0;
+    font-family: AkrobatExtraBold;
+    width: 80%;
+    padding: 0% 0% 3% 1%;
+    margin: 0% 0% 1% 2%;
+    border: 2px solid #3E8BC1;
+  }
+
+  input.valid, textarea.valid {
+    border: 2px solid #00e97e;
+  }
+  input.error, textarea.error {
+    border: 2px solid red;
+  }
+  button {
+    margin: 1% 0% 5% 20%;
+  }
+  label.error {
+    color: red;
+    margin: 0em 0em 0em -8em;
+  }
+}
+
+.bluefieldTwo {
+  padding-top: 3%;
+  padding-bottom: 3%;
+  text-align: center;
+  background: url("../../images/fon.jpg") no-repeat center center fixed;
+  background-size: cover;
+  img.logo {
+    width: 6%;
+    padding: 0% 0% 1% 0%;
+  }
+  span {
+    color: white;
+    font-family: "AkrobatExtraBold";
+    padding: 1%;
+    font-size: 240%;
+  }
+  .certificate {
+    margin: 0;
+    padding: 0;
+    img {
+      margin: 0;
+      padding: 0;
+      width: 90%;
+    }
+    img.horizontal {
+      padding-top: 60%;
+    }
+  }
+  .left {
+    color: white;
+    padding: 0;
+    text-align: left;
+  }
+  .right {
+    span {
+      font-size: 100%;
+    }
+    color: white;
+    padding: 0;
+    span#orange {
+      color: $orange;
+    }
+    span#orangeline {
+      border-bottom: 4px solid $orange;
+    }
+  }
+}
+
+.open {
+  background: coral;
+  padding: 1em 2em;
+  color: #fff;
+  border: 0;
+}
+
+.open:hover {
+  background: #333;
+}
+
+.popup {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.5);
+
+  .popup-content {
+    background-color: #f4f4f4;
+    margin: 20% auto;
+    padding: 20px;
+    width: 30em;
+    box-shadow: 0 5px 8px 0 rgba(0,0,0, 0.2), 0 7px 20px 0 rgb(0, 0, 0.17);
+    animation-name: popupopen;
+    animation-duration: 2s;
+
+    .close {
+      float: right;
+      font-size: 30px;
+    }
+
+    .close:hover, .close:focus {
+      color: #000;
+      text-decoration: none;
+      cursor: pointer;
+    }
+
+    h1 {
+      color: $orange;
+    }
+    h3 {
+      color: black;
+    }
+  }
+}
+
+@keyframes popupopen {
+  from {opacity: 0}
+  to {opacity: 1}
+}
